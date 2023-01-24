@@ -7705,14 +7705,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science)
-"bLP" = (
-/obj/machinery/camera/directional/east{
-	c_tag = "Permabrig - Kitchen Entrance";
-	network = list("ss13","prison")
-	},
-/obj/machinery/airalarm/directional/east,
-/turf/open/floor/iron,
-/area/station/security/prison)
 "bLR" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
@@ -27619,13 +27611,6 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron,
 /area/station/engineering/atmos/pumproom)
-"gER" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/closet/crate/bin,
-/obj/effect/spawner/random/contraband/prison,
-/obj/machinery/firealarm/directional/east,
-/turf/open/floor/iron,
-/area/station/security/prison)
 "gEW" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -36336,6 +36321,11 @@
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/iron/dark,
 /area/station/service/library/abandoned)
+"iQj" = (
+/obj/structure/closet/crate/bin,
+/obj/effect/spawner/random/contraband/prison,
+/turf/open/floor/iron,
+/area/station/security/prison)
 "iQr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
@@ -50375,6 +50365,17 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/exit)
+"mjU" = (
+/obj/structure/table,
+/obj/effect/spawner/random/contraband/prison,
+/obj/item/canvas/nineteen_nineteen,
+/obj/item/canvas/nineteen_nineteen,
+/obj/item/canvas/nineteen_nineteen,
+/obj/item/canvas/nineteen_nineteen,
+/obj/item/storage/crayons,
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron,
+/area/station/security/prison)
 "mjW" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/component_printer,
@@ -53434,6 +53435,18 @@
 	dir = 4
 	},
 /area/station/engineering/lobby)
+"mWd" = (
+/obj/machinery/camera/directional/east{
+	c_tag = "Permabrig - Kitchen Entrance";
+	network = list("ss13","prison")
+	},
+/obj/machinery/airalarm/directional/east,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/cryopod{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
+/area/station/security/prison)
 "mWh" = (
 /obj/machinery/holopad,
 /obj/effect/turf_decal/bot,
@@ -53479,6 +53492,16 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/engineering/supermatter/room)
+"mWM" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/cryopod{
+	dir = 8
+	},
+/obj/machinery/computer/cryopod{
+	pixel_x = 32
+	},
+/turf/open/floor/iron/white,
+/area/station/security/prison)
 "mWO" = (
 /obj/structure/railing/corner,
 /obj/effect/turf_decal/tile/neutral,
@@ -64008,16 +64031,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance/storage)
-"pGj" = (
-/obj/structure/table,
-/obj/effect/spawner/random/contraband/prison,
-/obj/item/canvas/nineteen_nineteen,
-/obj/item/canvas/nineteen_nineteen,
-/obj/item/canvas/nineteen_nineteen,
-/obj/item/canvas/nineteen_nineteen,
-/obj/item/storage/crayons,
-/turf/open/floor/iron,
-/area/station/security/prison)
 "pGk" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -77031,10 +77044,6 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron,
 /area/station/hallway/primary/port)
-"sON" = (
-/obj/structure/closet/crate/bin,
-/turf/open/floor/iron,
-/area/station/security/prison)
 "sOS" = (
 /obj/structure/table,
 /obj/item/trash/raisins,
@@ -96922,7 +96931,7 @@
 /obj/effect/spawner/random/structure/table_fancy,
 /obj/item/reagent_containers/cup/glass/bottle/beer{
 	desc = "Whatever it is, it reeks of foul, putrid froth.";
-	list_reagents = list(/datum/reagent/consumable/ethanol/bacchus_blessing=15);
+	list_reagents = list(/datum/reagent/consumable/ethanol/bacchus_blessing = 15);
 	name = "Delta-Down";
 	pixel_x = 5;
 	pixel_y = 5
@@ -152556,7 +152565,7 @@ idT
 idT
 idT
 dax
-sON
+iQj
 qkJ
 xdP
 gml
@@ -154355,11 +154364,11 @@ idT
 idT
 idT
 vRo
-pGj
+mjU
 nIr
 sMN
-bLP
-gER
+mWd
+mWM
 uRz
 sOS
 bnU
